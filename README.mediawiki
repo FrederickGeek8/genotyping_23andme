@@ -18,6 +18,10 @@ Last Revision of README: June, 27th 2014
 * ''snpedia.py'' A script which screens all homozygotous SNPs in the raw data and gets additional information about their effects from SNPedia 
 * ''pubmed_crawler.py'' A script which crawls PubMed for all papers which concern SNPs which are analyzed by 23andme and publishes it's result as a RSS-feed
 
+== Setup ==
+
+Change the contents of line ''189'' of snpedia.py from <code>genome_Frederick_Morlock_Full_20140626200038.txt</code> to the filename of your genome file.
+
 == snp.py ==
 Contains a method to parse the genotyping-raw-data, SNPs are parsed into a class which contains information about the SNPs name, chromosome, position and genotype
 
