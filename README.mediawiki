@@ -30,7 +30,7 @@ I wrote this script to get information about homozygotous, dominant SNPs i carry
 
 Up to know these candidate SNPs have to be screened by hand, to see if I carry the dominant genotype (otherwise no information about parental phenotype can be won). To reduce load on SNPedia data on genotypes and descriptions are stored locally in *.data-files
 
-=== Arguements ===
+=== Arguments ===
 
 '''--clean''' - Cleans up any caches.
 
