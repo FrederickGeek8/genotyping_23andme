@@ -9,13 +9,11 @@ Cheers,
 Bastian Greshake
 May, 3rd 2011
 
-Last Revision of README: May, 26th 2011
+Last Revision of README: June, 27th 2014
 
 
 == Content == 
 
-* ''genome_Bastian_Greshake_Full_20110503120911.txt'' My genotyping raw data, as provided by 23andme
-* ''genome_Bastian_Greshake_Full_20110503120911.html'' The Promethease-report, generated from my raw data
 * ''snp.py'' A simple parser for the raw data, including a simple SNP-class
 * ''snpedia.py'' A script which screens all homozygotous SNPs in the raw data and gets additional information about their effects from SNPedia 
 * ''pubmed_crawler.py'' A script which crawls PubMed for all papers which concern SNPs which are analyzed by 23andme and publishes it's result as a RSS-feed
@@ -51,7 +49,7 @@ Whats missing: An option to split the job into chunks, otherwise a full run on 1
 An example RSS-Feed can be found in 23andme_feed.xml
 
 === Dependencies ===
-
+	
 * snp.py
 * [http://biopython.org/wiki/Main_Page BioPython]
 * [http://www.dalkescientific.com/Python/PyRSS2Gen.html PyRSS2Gen] 
